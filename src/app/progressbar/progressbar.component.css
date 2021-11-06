@@ -1,0 +1,41 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+  width: 700px;
+  margin: auto;
+  margin-top: 6%;
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.label{
+  text-align: center;
+  font-size: 50px;
+}
+
+.progress{
+  height: 5rem;
+  background-color: rgb(235, 37, 37);
+  border-radius: 10px;
+}
+
+.value{
+  color: #fff;
+  -webkit-text-stroke: 2px #000;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.background{
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(194, 194, 194);
+  border-radius: 10px;
+  outline: 5px solid #000;
+}

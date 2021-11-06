@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'progressBarProject';
+
+  label = 'Project Status';
+
+  max = 100;
+  value = 85;
+
+  onChange(progressValue:any) {
+    console.log("Progress is " + progressValue +"%")
+  }
+  onClick(progressValue:any) {
+    console.log("Progress is " + progressValue +"%")
+  }
 }
